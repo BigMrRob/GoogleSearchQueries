@@ -29,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="search.html">Google Search</span></a>
+            <a class="nav-link" href="index.html">Google Search</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="image.html">Image Search</a>
@@ -54,25 +54,26 @@
       </div>
       <div class="form-main">
         <div class="left-half">
-          <form>
+          <form action="https://google.com/search">
+            
             <ul class="wrapper">
               <li class="form-row">
                 <label for="name">All these words:</label>
-                <input type="text" id="name">
+                <input type="text" name="as_q">
               </li>
               <li class="form-row">
                 <label for="townborn">This exact word or phrase:</label>
-                <input type="text" id="townborn">
+                <input type="text" name="as_epq">
               </li>
               <li class="form-row">
                 <label for="email">Any of these words:</label>
-                <input type="email" id="email">
+                <input type="text" id="email" name="as_oq">
               </li>
               <li class="form-row">
                 <label for="email">None of these words:</label>
-                <input type="email" id="email">
+                <input type="text" id="email" name="as_eq">
               </li>
-              <button class="btn btn-outline-success my-2 my-sm-0 submitform" type="submit">
+              <button class="btn btn-primary my-2 my-sm-0 submitform" type="submit">
                 Advanced Search
               </button>
             </ul>
