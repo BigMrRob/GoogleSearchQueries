@@ -8,11 +8,12 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <img  class="logo navbar-brand" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png">
       <button
         class="navbar-toggler"
         type="button"
@@ -37,8 +38,59 @@
             <a class="nav-link" href="advanced.html">Advanced Search</a>
           </li>
         </ul>
-        
       </div>
     </nav>
+
+    <div class="heading">
+      <p>Advanced Search</p>
+    </div>
+    <hr>
+
+    <!-- Main Form Area -->
+    <div class="main-content">
+      <div class="main-headings">
+        <p>Find pages with..</p>
+        <p>To do this in the search box</p>
+      </div>
+      <div class="form-main">
+        <div class="left-half">
+          <form>
+            <ul class="wrapper">
+              <li class="form-row">
+                <label for="name">All these words:</label>
+                <input type="text" id="name">
+              </li>
+              <li class="form-row">
+                <label for="townborn">This exact word or phrase:</label>
+                <input type="text" id="townborn">
+              </li>
+              <li class="form-row">
+                <label for="email">Any of these words:</label>
+                <input type="email" id="email">
+              </li>
+              <li class="form-row">
+                <label for="email">None of these words:</label>
+                <input type="email" id="email">
+              </li>
+              <button class="btn btn-outline-success my-2 my-sm-0 submitform" type="submit">
+                Advanced Search
+              </button>
+            </ul>
+          </form>
+        </div>
+        <div class="right-half">
+          <div class="box">
+            <div class="rows">
+              <div class="row"><p>Type the important words:  tricolor rat terrier</p></div>
+              <div class="row"><p>Put exact words in quotes:  "rat terrier"</p></div>
+              <div class="row"><p>Type OR between all the words you want:  miniature OR standard</p></div>
+              <div class="row"><p>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
   </body>
 </html>
