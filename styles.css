@@ -1,20 +1,31 @@
-.jumbotron {
+.jumbotron1 {
+  margin-top: 5%;
   text-align: center;
 }
-.jumbotron img {
-  width: 50%;
-}
-.jumbotron input[type=text] {
-  border-radius: 25px;
+.jumbotron1 img {
   width: 20%;
-  border: 1px solid gray;
 }
-.jumbotron input[type=submit] {
-  margin-top: 8px;
+.jumbotron1 input[type=text] {
+  border-radius: 25px;
+  width: 30%;
+  border: 1px solid gray;
+  padding: 4px;
+}
+.jumbotron1 input[type=submit] {
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
 }
 
 .logo {
   width: 3%;
+}
+
+.divider {
+  width: 10px;
+  height: auto;
+  display: inline-block;
 }
 
 .heading {
